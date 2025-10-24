@@ -12,7 +12,7 @@ app = FastAPI()
 # CORS middleware to allow our frontend to call this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In production, lock this to your Vercel URL
+    allow_origins=["https://altibbe-backend-2wzh.onrender.com"], # In production, lock this to your Vercel URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -5,7 +5,12 @@ import productRoutes from './routes/product.routes';
 
 const app = express();
 
-app.use(cors()); // Allow all origins
+const corsOptions = {
+    origin: 'https://altibbe-submission-form.onrender.com' // Your frontend URL
+  };
+  app.use(cors(corsOptions));
+
+
 app.use(express.json()); // Parse JSON bodies
 
 // Health check
