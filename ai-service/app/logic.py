@@ -9,7 +9,7 @@ from .models import Answer
 # ---
 try:
     # 1. REPLACE THE PLACEHOLDER WITH YOUR ACTUAL KEY
-    genai.configure(api_key="AIzaSyCxpdhDNx9MMnDKqPUIRCVA05pcu2DXzrg")
+    genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 except Exception as e:
     print(f"Error configuring Gemini API: {e}")
 
