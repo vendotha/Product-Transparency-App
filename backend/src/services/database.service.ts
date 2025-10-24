@@ -3,6 +3,9 @@ import 'dotenv/config';
 
 export const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
+  ssl: true // <-- ADD THIS LINE
 });
 
-pool.connect().then(() => console.log('Database connected'));
+pool.connect()
+  .then(() => console.log('Database connected successfully'))
+  .catch((err) => console.error('Database connection error', err));
