@@ -20,7 +20,7 @@
 
 ## 🎯 Executive Summary
 
-An **AI-powered, full-stack web application** that revolutionizes product transparency reporting. Companies engage in an intelligent, adaptive interview process powered by Google's Gemini 1.5 Flash, culminating in a comprehensive Product Transparency Report.
+An **AI-powered, full-stack web application** that revolutionizes product transparency reporting. Companies engage in an intelligent, adaptive interview process powered by Google's Gemini 2.5 Flash, culminating in a comprehensive Product Transparency Report.
 
 ### Why This Matters
 
@@ -54,7 +54,7 @@ In an era where consumers demand transparency, this platform doesn't just collec
 
 ### 🤖 **Intelligent Question Generation**
 - **Dynamic Context Awareness:** AI adapts questions based on product category and previous answers
-- **Smart Follow-ups:** Gemini 1.5 Flash generates relevant, non-repetitive questions
+- **Smart Follow-ups:** Gemini 2.5 Flash generates relevant, non-repetitive questions
 - **Category-Specific Intelligence:** Different question paths for Skincare vs. Food vs. Electronics
 
 ### 📋 **Seamless User Experience**
@@ -91,7 +91,7 @@ In an era where consumers demand transparency, this platform doesn't just collec
 
 ### AI Service Stack
 - **FastAPI** for high-performance Python APIs
-- **Google Gemini 1.5 Flash** for intelligent question generation
+- **Google Gemini 2.5 Flash** for intelligent question generation
 - **Context Management** with conversation history
 - **Deployed on Render** with auto-scaling
 
@@ -180,7 +180,7 @@ Building trust through:
 - Documentation assistance
 
 ### AI-Powered Innovation
-**Google Gemini 1.5 Flash** powers the core feature:
+**Google Gemini 2.5 Flash** powers the core feature:
 - Custom system prompt engineering
 - Expert-level product compliance knowledge
 - Mission-aligned questioning strategy
